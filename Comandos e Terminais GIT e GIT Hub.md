@@ -26,3 +26,8 @@ A navegação dentro dos terminais dá-se pelo uso de comandos. Alguns dos princ
 ## Para adicionar novo repositório: *de um já existente na máquina*
 1. **git remote add origin + https**
 2. **git push -u origin main**
+
+## Para atualizar o commit
+1. **git commit -m "nome arquivo"**
+2. **git status**
+3. **git push**
