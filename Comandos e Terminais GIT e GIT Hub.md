@@ -21,13 +21,14 @@ A navegação dentro dos terminais dá-se pelo uso de comandos. Alguns dos princ
 - **git add:** para adicionar repositórios que não estejam sincronizados;
 - **git config --list:** vamos listar a configuração feita no git;
 - **git config --global user.name "nome"**: comando para alteração de nome do git;
-- **git add. + git commit -m "nome arquivo"**: série para commitar novo arquivo;
+- **git add. + git commit -m "nome arquivo"**: série para commitar novo arquivo.
 
 ## Para adicionar novo repositório: *de um já existente na máquina*
 1. **git remote add origin + https**
 2. **git push -u origin main**
 
 ## Para atualizar o commit
-1. **git commit -m "nome arquivo"**
-2. **git status**
-3. **git push**
+1. git add . "nome arquivo"
+2. git commit -m "nome arquivo"
+3. git push
+
