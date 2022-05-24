@@ -16,6 +16,13 @@ A navegação dentro dos terminais dá-se pelo uso de comandos. Alguns dos princ
 - **rmdir + nome da pasta:** para deletar uma pasta (é importante lembrar que antes de executarmos esse comando precisamos deletar os arquivos);
 - **ls:** para listar todos os arquivos em uma pasta;
 - **git init:** para iniciar o git e versionar o algoritmo;
-- **is -a:** para listar itens ocultos;
+- **ls -a:** para listar itens ocultos;
 - **git status:** para verificar como está o status de sincronização do diretório;
-- **git add:** para adicionar repositórios que não estejam sincronizados.
+- **git add:** para adicionar repositórios que não estejam sincronizados;
+- **git config --list:** vamos listar a configuração feita no git;
+- **git config --global user.name "nome"**: comando para alteração de nome do git;
+- **git add. + git commit -m "nome arquivo"**: série para commitar novo arquivo;
+
+## Para adicionar novo repositório: *de um já existente na máquina*
+1. **git remote add origin + https**
+2. **git push -u origin main**
